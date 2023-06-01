@@ -1,6 +1,6 @@
 import { Form, Input, Debug } from "informed";
 
-export default () => {
+const B = () => {
   return (
     <div>
       <h3>Welcome to page B</h3>
@@ -12,3 +12,5 @@ export default () => {
     </div>
   );
 };
+
+export default B;

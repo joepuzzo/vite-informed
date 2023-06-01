@@ -36,10 +36,10 @@ const schema = {
   },
 };
 
-export default () => {
+const A = () => {
   return (
     <div>
-      <h3>Welcome to page A</h3>
+      <h3>Welcome to page A!!!!</h3>
       <CustomForm>
         <Input name="name" label="Name" />
         <button type="submit">Submit</button>
@@ -48,3 +48,5 @@ export default () => {
     </div>
   );
 };
+
+export default A;
